@@ -7,5 +7,9 @@ object Test {
 
   def main(args: Array[String]): Unit = {
     println("helloWorld")
+
+    for (i<- 1 to 3){
+      println(i)
+    }
   }
 }
